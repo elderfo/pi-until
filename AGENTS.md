@@ -10,7 +10,7 @@ npm run check
 npm run pack:dry
 ```
 
-CI and `.nvmrc` pin Node `24.18.0` and npm `11.16.0`; never Bun. `devEngines` fails hard on any package manager other than npm `>=11.16.0 <12` and on Node older than `24.18.0`. It is checked even by `pi install`'s `npm install --omit=dev`, so keep the ranges open enough for consumers. Dependencies are exact-pinned.
+CI and `.nvmrc` pin Node `24.22.1` and npm `11.16.0`; never Bun. `devEngines` fails hard on any package manager other than npm `>=11.16.0 <12` and on Node older than `24.18.0`. It is checked even by `pi install`'s `npm install --omit=dev`, so keep the ranges open enough for consumers. Dependencies are exact-pinned.
 
 ## Architecture
 
